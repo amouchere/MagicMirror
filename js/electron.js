@@ -36,7 +36,7 @@ function createWindow() {
 		electronOptionsDefaults.kiosk = true;
 	} else {
 		electronOptionsDefaults.fullscreen = true;
-		electronOptionsDefaults.autoHideMenuBar = true;
+		electronOptionsDefaults.autoHideMenuBar = false;
 	}
 
 	var electronOptions = Object.assign({}, electronOptionsDefaults, config.electronOptions);
